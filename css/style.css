@@ -1,0 +1,81 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  padding: 0 0 30px;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+h1,
+h3,
+.title {
+  color: #2d3c49;
+}
+
+.line {
+  margin:10px auto 40px;
+  border: 0;
+  height: 4px;
+  background-color: #7d97ad;
+}
+
+.secondTitle {
+  color: #7d97ad;
+  margin: 35px auto 5px;
+}
+
+a:link,
+a:visited {
+  color: #777;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #000;
+}
+
+.picture {
+  box-shadow: 5px 5px 25px 0 rgba(47,47,47,0.2);
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .picture {
+    margin: 20px auto;
+  }
+}
