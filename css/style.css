@@ -52,11 +52,16 @@ a:hover {
 .picture {
   box-shadow: 7px 7px 25px 0 rgba(47,47,47,0.2);
   transition: 0.5s;
+  border-radius: 5px;
 }
 
 .picture:hover {
   box-shadow: 4px 4px 12px 0 rgba(0,0,0,0.3);
   transitoin: 0.5s;
+}
+
+.picture > :first-child {
+  border-radius: 5px 5px 0 0;
 }
 
 @media screen and (max-width: 768px) {
